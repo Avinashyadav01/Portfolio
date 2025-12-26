@@ -1,0 +1,52 @@
+* {
+  font-family: 'Space Grotesk', sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, #f8f9ff, #e8eeff);
+  position: relative;
+  overflow: hidden;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(99,102,241,0.15);
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(99,102,241,0.15);
+}
+
+.section-title {
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 70px;
+  height: 4px;
+  background: linear-gradient(90deg,#6366f1,#8b5cf6);
+  border-radius: 2px;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg,#6366f1,#8b5cf6);
+  color: white;
+  padding: 14px 32px;
+  border-radius: 999px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+}
